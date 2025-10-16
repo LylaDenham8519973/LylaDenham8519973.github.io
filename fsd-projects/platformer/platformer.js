@@ -31,16 +31,17 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(698,507,279,10)
-createPlatform(610,630,210,11)
-createPlatform(765,400,200,12)
-createPlatform(830,340,180,13)
-createPlatform(900,300,120,14)
-createPlatform(950,360)
+createPlatform(700,600,270,11);
+createPlatform(400,700,150,14);
+createPlatform(200,300,250,15);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ,400,200,12)
+createPlatform(320,430,180,12);
+createPlatform(340,540,200,13);
+
 
 
     // TODO 3 - Create Collectables
-
+createCollectable("Zack", 520,550);
+createCollectable("Chloe", )
 
 
     
