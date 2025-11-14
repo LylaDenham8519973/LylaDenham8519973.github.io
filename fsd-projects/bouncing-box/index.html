@@ -69,10 +69,10 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
-
-
-
+       var positionX = 0
+       positionX = positionX + 10
+       moveBoxTo(positionX)
+       
 
         /**
          * This Function will be called 20 times/second.
@@ -93,8 +93,9 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
-
+        function handleBoxClick(positionX = 0); {
+        changeBoxText(0);
+        
 
 
 
