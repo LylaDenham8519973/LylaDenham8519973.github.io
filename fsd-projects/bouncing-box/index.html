@@ -103,10 +103,15 @@
         speed = speed + 3
         positionX = positionX + speed;
         speed = speed + 3
-
         
+        if(positionX > boardWidth){
+        speed = speed * -1
         }
 
+        }
+        if(positionX < 0){
+        speed *= -1
+        }
 
         
       })();
